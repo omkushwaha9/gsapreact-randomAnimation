@@ -24,8 +24,8 @@ main{
   background-color: brown;
   border-radius: 20px;
 }
-.button{
-  padding: 10px 10px;
+button{
+  padding: 10px 30px;
   border-radius: 20px;
   background: linear-gradient(lightgreen,seagreen);
   color: black;
@@ -40,5 +40,5 @@ main{
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  background: linear-gradient(to rightbottom,lightblue,lightgreen);
+  background: linear-gradient(rgba(0, 180, 240, 0.94),rgb(0, 247, 0));
 }
