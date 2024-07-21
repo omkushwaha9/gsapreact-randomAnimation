@@ -1,28 +1,26 @@
-import { useGSAP } from '@gsap/react';
-import gsap from 'gsap';
-import React, { useState } from 'react'
-
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+import React from 'react'
 
 const App = () => {
 
- const [circle, setcircle] = useState(0);
-
- const random = gsap.utils.random(-500,500,100);
-
   useGSAP(()=>{
-    gsap.to(".circle",{
-      x:circle,
-      duration:0.5,
+    gsap.to(".box",{
+      x:1150,
+      duration:20,
+      delay:0.4,
+      rotate:360,
     })
-  },[circle])
+  })
+
   return (
-   <main>
-    <button onclick={()=>{
-      setcircle(random)
-    }}>Animate</button>
-    <div  className="circle"></div>
-   </main>
+    <main>
+      <div className='box'> </div>
+      <div className='button'>
+           Animation
+        </div>
+    </main>
   )
 }
 
-export default App;
+export default App
