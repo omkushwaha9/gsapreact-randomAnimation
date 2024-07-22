@@ -8,8 +8,9 @@
 
 html,
 body {
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  
 }
 main{
   height: 100vh;
@@ -21,7 +22,7 @@ main{
 .box{
   height: 300px;
   width: 300px;
-  background-color: brown;
+  background: linear-gradient(rgb(193, 7, 255),rgb(247, 124, 0));
   border-radius: 20px;
 }
 button{
