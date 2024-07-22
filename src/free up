@@ -1,0 +1,16 @@
+
+  const randomX = gsap.utils.random(-500, 500, 100);
+  const rotateX = gsap.utils.random(-360,360,30)
+
+  const [xValue, setXValue] = useState(0);
+  const [roti, setRoti] = useState();
+
+  const boxref = useRef()
+
+  useGSAP(() => {
+    gsap.to(boxref.current, {
+      x:xValue,
+      duration: 1,
+      rotate:roti
+    })
+  }, [xValue,rotateX])

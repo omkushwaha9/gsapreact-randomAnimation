@@ -22,7 +22,7 @@ main{
 .box{
   height: 300px;
   width: 300px;
-  background: linear-gradient(rgb(193, 7, 255),rgb(247, 124, 0));
+  background: linear-gradient(rgb(193, 7, 255),rgb(0, 0, 0),rgb(0, 255, 242));
   border-radius: 20px;
 }
 button{
