@@ -14,3 +14,13 @@
       rotate:roti
     })
   }, [xValue,rotateX])
+
+  // #box
+  useGSAP(()=>{
+    gsap.to(".box",{
+      x:1150,
+      duration:2,
+      delay:0.5,
+      rotate:3600,
+    })
+  })
