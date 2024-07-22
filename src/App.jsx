@@ -5,8 +5,8 @@ import { useState } from 'react';
 
 
 const App = () => {
-  const randomX = gsap.utils.random(-100, 1500, 100, true);
-  const rotateX = gsap.utils.random(-3600,3600,30, true)
+  const randomX = gsap.utils.random(-10, 1150, 100, true);
+  const rotateX = gsap.utils.random(-3600,360000,30, true)
 
   const [xValue, setXValue] = useState(0);
   const [roti, setRoti] = useState(0);
