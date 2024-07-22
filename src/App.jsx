@@ -1,7 +1,8 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import React from 'react'
+
 import { useState } from 'react';
+
 
 const App = () => {
   const [circle, setCircle] = useState(0);

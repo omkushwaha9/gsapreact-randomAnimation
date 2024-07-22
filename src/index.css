@@ -26,7 +26,7 @@ main{
 }
 button{
   padding: 10px 30px;
-  border-radius: 20px;
+  border-radius: 50px;
   background: linear-gradient(lightgreen,seagreen);
   color: black;
   font-size: 25px;
@@ -34,7 +34,7 @@ button{
   font-weight: 700;
 }
 .button:active{
-  scale: 0.95;
+  scale: 0.70;
 }
 .circle{
   height: 300px;
